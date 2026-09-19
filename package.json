@@ -1,0 +1,16 @@
+{
+  "name": "ine-price-tracker-root",
+  "version": "1.0.0",
+  "description": "INE Product Price Tracker — Autonomous Web Scraping & Live Monitoring",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "test": "npm --prefix backend test",
+    "scraper": "npm --prefix backend run scraper",
+    "scraper:headed": "npm --prefix backend run scraper:headed",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": ["playwright", "scraping", "react", "express", "supabase", "price-tracker"],
+  "author": "",
+  "license": "ISC"
+}

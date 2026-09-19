@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "scraper": "node -e \"require('./src/scraper/playwrightScraper').scrapeProductPage('https://demo.inelabteamdev.com/product/39').then(console.log).catch(console.error)\"",
+    "scraper:headed": "node scripts/headed-scrape.js",
+    "scraper:headed:fail": "node scripts/headed-scrape.js --fail-test",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.116.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "playwright": "^1.63.0"
+  }
+}
