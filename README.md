@@ -365,6 +365,14 @@ Because free-tier web services on Render go to sleep after inactivity, an extern
 
 ---
 
+---
+
+## Live Deployment
+
+- **Frontend (Vercel):** https://ine-price-tracker-tau.vercel.app
+- **Backend (Render):** https://ine-price-tracker-ebrm.onrender.com
+- **Scheduled Scraping:** cron-job.org runs the scraper every 2 hours.
+
 ## API Documentation
 
 | Method | Endpoint | Description | Headers / Body |
